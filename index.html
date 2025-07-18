@@ -1,21 +1,11 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VoxelByte | Free Minecraft Hosting</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
-  <div class="container">
-    <h1>VoxelByte</h1>
-    <p>Free Minecraft Server Hosting</p>
-    <form action="thankyou.html" method="POST">
-      <input type="text" placeholder="Your Minecraft Username" required />
-      <input type="email" placeholder="Your Email Address" required />
-      <button type="submit">Request Server</button>
-    </form>
-  </div>
-</body>
-</html>
+<form action="https://formsubmit.co/voxelbyte.hosting@gmail.com" method="POST">
+  <input type="email" name="email" placeholder="Enter your email address" required>
+  
+  <!-- hidden field to redirect -->
+  <input type="hidden" name="_next" value="https://voxelbyte.vercel.app/thankyou.html">
+  
+  <!-- optional: turn off captcha -->
+  <input type="hidden" name="_captcha" value="false">
+  
+  <button type="submit">Join Waitlist</button>
+</form>
